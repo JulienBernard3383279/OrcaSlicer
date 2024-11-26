@@ -2073,6 +2073,7 @@ void TabPrint::build()
         optgroup = page->new_optgroup(L("Walls and surfaces"), L"param_wall_surface");
         optgroup->append_single_option_line("wall_sequence");
         optgroup->append_single_option_line("is_infill_first");
+        optgroup->append_single_option_line("is_infill_first_on_first_layer");
         optgroup->append_single_option_line("wall_direction");
         optgroup->append_single_option_line("print_flow_ratio");
         optgroup->append_single_option_line("top_solid_infill_flow_ratio");
