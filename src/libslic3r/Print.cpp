@@ -176,6 +176,7 @@ bool Print::invalidate_state_by_config_options(const ConfigOptionResolver & /* n
         "required_nozzle_HRC",
         "upward_compatible_machine",
         "is_infill_first",
+        "is_infill_first_on_first_layer",
         // Orca
         "chamber_temperature",
         "thumbnails",
